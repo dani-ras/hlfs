@@ -14,7 +14,8 @@ app.use(express.json())
 
 // app.use('/notes', notes)
 app.post('/goalPosition', (req, res) => {
-    const { ballPosition, radius } = req.body
+    const { ballPos, radius } = req.body
+    //figure how to get a random point inside a circle with `radius` centered on ballPos
     // const newLocation
     res.send()
 })
